@@ -2,15 +2,18 @@ package grifferthrydwy.mod;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
 public class ScrollItem extends Item {
-    private Spell spell;
+    public Spell spell;
 
-    public ScrollItem(Settings settings) {
+    public ScrollItem(Spell spell, QuiltItemSettings settings) {
         super(settings);
+        this.spell = spell;
+
     }
 
-    enum Spell {
+    public enum Spell {
         SPELL_ONE,
         SPELL_TWO,
         SPELL_THREE
@@ -30,17 +33,17 @@ public class ScrollItem extends Item {
 
 
 
-    private static Runnable spellOne = () -> {
+    private static final Runnable spellOne = () -> {
         //spellOne code
         System.out.println("okjj");
     };
 
-    private static Runnable spellTwo = () -> {
+    private static final Runnable spellTwo = () -> {
         //spellOne code
         System.out.println("okjj");
     };
 
-    private static Runnable spellThree = () -> {
+    private static final Runnable spellThree = () -> {
         //spellOne code
         System.out.println("okjj");
     };
