@@ -6,16 +6,16 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"description": "Adds Scrolls & Spells.",
 			"contributors": {
-				"Me!": "Owner"
+				"grifferthrydwy": "Owner"
 			},
 			"icon": "assets/examplemod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
 			"init": [
-				"com.examplemod.ExampleMod"
+				"grifferthrydwy.mod.Main"
 			]
 		},
 		"depends": [
@@ -34,7 +34,7 @@
 		]
 	},
 	"mixin": [
-		"examplemod.mixins.json"
+		"mod.mixins.json"
 	],
 	"minecraft": {
 		"environment": "*"
