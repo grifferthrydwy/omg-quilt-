@@ -65,7 +65,7 @@ jar {
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
-			group 'com.examplemod'
+			group 'grifferthrydwy.scrolls'
 			from components.java
 		}
 	}

@@ -2,7 +2,7 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${maven_group}",
-		"id": "examplemod",
+		"id": "mod",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
@@ -10,12 +10,12 @@
 			"contributors": {
 				"grifferthrydwy": "Owner"
 			},
-			"icon": "assets/examplemod/icon.png"
+			"icon": "assets/mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
 			"init": [
-				"grifferthrydwy.mod.Main"
+				"grifferthrydwy.scrolls.Main"
 			]
 		},
 		"depends": [

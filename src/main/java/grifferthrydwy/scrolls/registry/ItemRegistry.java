@@ -1,7 +1,7 @@
-package grifferthrydwy.mod.registry;
+package grifferthrydwy.scrolls.registry;
 
-import grifferthrydwy.mod.Main;
-import grifferthrydwy.mod.ScrollItem;
+import grifferthrydwy.scrolls.Main;
+import grifferthrydwy.scrolls.ScrollItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;

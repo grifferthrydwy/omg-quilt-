@@ -1,6 +1,6 @@
-package grifferthrydwy.mod.mixin;
+package grifferthrydwy.scrolls.mixin;
 
-import grifferthrydwy.mod.Main;
+import grifferthrydwy.scrolls.Main;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
